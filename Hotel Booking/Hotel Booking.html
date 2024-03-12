@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="d-flex flex-column">
+            <div class="bg">
+            </div>
+            <div class="homepage">
+                <h1 class="heading">Another Home</h1>
+                <p class="para">Enjoy Your Dream Vaction In Your Favourite Hotel</p>
+                <button class="button" onclick="display('sectionhotel')">Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="favourite-places-bg-container" id="sectionhotel">
+        <h1 class="favourite-places-heading">Top Hotels</h1>
+
+        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionroom1')">
+            <div>
+                <h1 class="favourite-place-card-heading">Taj Krishna</h1>
+                <p class="favourite-place-card-description">
+                    Located in Banjara Hills,a prominent and central location of hyderabad,it is ideal luxury 5-star
+                    hotel for travelers to city of Nizams!
+                </p>
+            </div>
+            <img src="https://r1imghtlak.mmtcdn.com/3ba55d46237311e8b0bb0a4cef95d023.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionroom2')">
+            <div>
+                <h1 class="favourite-place-card-heading">Falaknuma palace</h1>
+                <p class="favourite-place-card-description">
+                    The Royal Beauty of Hyderabad ,it is a jewel amongest the clouds.
+                </p>
+            </div>
+            <img src="https://i0.wp.com/bradajohnson.net/wp-content/uploads/2017/01/IMG_1547_Aurora2017_HDR-2.jpg?fit=1920%2C1280&ssl=1" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionroom3')">
+            <div>
+                <h1 class="favourite-place-card-heading">Lemon Tree Hotel</h1>
+                <p class="favourite-place-card-description">
+                    Named for luxury and modern architecture ,it is named for its cuisines.
+                </p>
+            </div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/f1/c2/12/lemon-tree-hotel-port.jpg?w=700&h=-1&s=1" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionroom4')">
+            <div>
+                <h1 class="favourite-place-card-heading">Le Meridien Hyderabad</h1>
+                <p class="favourite-place-card-description">
+                    Based in Gachibowli,Le Merdien hyderbad is just 30 mins from the airport,it consists modern European
+                    and asian Architeture.
+                </p>
+            </div>
+            <img src="https://www.trvme.com/img/accomodations/le-meridien-img2.jpg" class="favourite-place-card-image" />
+        </div>
+    </div>
+    <div id="sectionroom1">
+        <div class="bg-2">
+            <h1 class="heading">Suites </h1>
+            <div class="flat d-flex flex-row">
+                <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1050564510?k=20&m=1050564510&s=612x612&w=0&h=QHxWH_n-VlHac2z4qFwCSh1RB9QInNzZDHA11K28fI8=" / class="pic" onclick="display('sectiondetailes')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes')">
+                    <h1 class="head">Junior Suite</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07--luxury-rooms-luxury-living.jpg" / class="pic" onclick="display('sectiondetailes2')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes2')">
+                    <h1 class="head">luxury room</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack with 1 extra large double bed.in-built area is about 2300sq.ft.</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/12/d0/e3/12d0e332933e300443d5ab365a71b671.jpg" / class="pic" onclick="display('sectiondetailes3')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes3')">
+                    <h1 class="head">Penthouse Suite </h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack and also consits of 1 extra large double bed.in-built area is about 5000sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="flat button" onclick="display('sectionhotel')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes">
+        <div class="d-flex flex-column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutxNQH24DEQyZ0NnxrjM_56yqrA6Xl-gKhw&usqp=CAU" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 6000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Banaja Hills Main Rd,Balapur Basthi,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom1')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes2">
+        <div class="d-flex flex-column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbATKAcCIECGkCS9mSEFaiXY3VKj5iHwaz8w&usqp=CAU" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 9000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Banaja Hills Main Rd,Balapur Basthi,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom1')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes3">
+        <div class="d-flex flex-column">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/11/QQ/OZ/BM/54464302/luxury-bedroom-interior-designing-500x500.jpg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 12000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Banaja Hills Main Rd,Balapur Basthi,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom1')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionroom2">
+        <div class="bg-2">
+            <h1 class="heading">Suites </h1>
+            <div class="flat d-flex flex-row">
+                <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1050564510?k=20&m=1050564510&s=612x612&w=0&h=QHxWH_n-VlHac2z4qFwCSh1RB9QInNzZDHA11K28fI8=" / class="pic" onclick="display('sectiondetailes')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes4')">
+                    <h1 class="head">Guest Room</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07--luxury-rooms-luxury-living.jpg" / class="pic" onclick="display('sectiondetailes2')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes5')">
+                    <h1 class="head">Luxury Suite </h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack with 1 extra large double bed.in-built area is about 2300sq.ft.</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/12/d0/e3/12d0e332933e300443d5ab365a71b671.jpg" / class="pic" onclick="display('sectiondetailes3')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes6')">
+                    <h1 class="head">Royal Suite </h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack and also consits of 1 extra large double bed.in-built area is about 5000sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="flat button" onclick="display('sectionhotel')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes4">
+        <div class="d-flex flex-column">
+            <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1050564510?k=20&m=1050564510&s=612x612&w=0&h=QHxWH_n-VlHac2z4qFwCSh1RB9QInNzZDHA11K28fI8=" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 10000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Engine Bowli,Falaknuma ,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom2')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes5">
+        <div class="d-flex flex-column">
+            <img src="http://cdn.home-designing.com/wp-content/uploads/2018/10/decorating-ideas-for-moroccan-luxury-bedroom-with-blue-shag-carpet.jpg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 15000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Engine Bowli,Falaknuma ,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom2')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes6">
+        <div class="d-flex flex-column">
+            <img src="https://i.pinimg.com/736x/12/d0/e3/12d0e332933e300443d5ab365a71b671.jpg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 20000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Engine Bowli,Falaknuma ,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom2')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionroom3">
+        <div class="bg-2">
+            <h1 class="heading">Suites </h1>
+            <div class="flat d-flex flex-row">
+                <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1050564510?k=20&m=1050564510&s=612x612&w=0&h=QHxWH_n-VlHac2z4qFwCSh1RB9QInNzZDHA11K28fI8=" / class="pic" onclick="display('sectiondetailes')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes7')">
+                    <h1 class="head">Luxury Room</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07--luxury-rooms-luxury-living.jpg" / class="pic" onclick="display('sectiondetailes2')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes8')">
+                    <h1 class="head">Deluxe Suite</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack with 1 extra large double bed.in-built area is about 2300sq.ft.</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/12/d0/e3/12d0e332933e300443d5ab365a71b671.jpg" / class="pic" onclick="display('sectiondetailes3')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes9')">
+                    <h1 class="head">Gold Suite </h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack and also consits of 1 extra large double bed.in-built area is about 5000sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="flat button" onclick="display('sectionhotel')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes7">
+        <div class="d-flex flex-column">
+            <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1066999762?k=20&m=1066999762&s=612x612&w=0&h=BitPXyhBFZQHMfpC9ikX_DReVK6Rd28hH9pRoZW8YAs=" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 5000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Lemon Tree Hotel,Gachiboli,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom3')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes8">
+        <div class="d-flex flex-column">
+            <img src="https://www.mymydiy.com/wp-content/uploads/2022/05/Modern-Luxury-Bedrooms.jpeg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 8000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Lemon Tree Hotel,Gachiboli,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom3')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes9">
+        <div class="d-flex flex-column">
+            <img src="https://media.istockphoto.com/photos/luxurious-bedroom-interior-with-messy-bed-and-armchair-in-holiday-or-picture-id1326393613?b=1&k=20&m=1326393613&s=170667a&w=0&h=gEvTszklSpD_l0LmkGHoehehXLcOJs1q-Sar5lwJhE0=" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 10000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Lemon Tree Hotel,Gachiboli,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom3')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionroom4">
+        <div class="bg-2">
+            <h1 class="heading">Suites </h1>
+            <div class="flat d-flex flex-row">
+                <img src="https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1050564510?k=20&m=1050564510&s=612x612&w=0&h=QHxWH_n-VlHac2z4qFwCSh1RB9QInNzZDHA11K28fI8=" / class="pic" onclick="display('sectiondetailes')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes10')">
+                    <h1 class="head">Terrace Suite</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07--luxury-rooms-luxury-living.jpg" / class="pic" onclick="display('sectiondetailes2')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes11')">
+                    <h1 class="head">Excutive Suite</h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack with 1 extra large double bed.in-built area is about 2300sq.ft.</p>
+                </div>
+            </div>
+            <div class="flat d-flex flex-row">
+                <img src="https://i.pinimg.com/736x/12/d0/e3/12d0e332933e300443d5ab365a71b671.jpg" / class="pic" onclick="display('sectiondetailes3')">
+                <div class="flats d-flex flex-column" onclick="display('sectiondetailes12')">
+                    <h1 class="head">Luxury Suite </h1>
+                    <p class="para">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack and also consits of 1 extra large double bed.in-built area is about 5000sq.ft.a spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="flat button" onclick="display('sectionhotel')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes10">
+        <div class="d-flex flex-column">
+            <img src="https://i.pinimg.com/736x/31/6a/d2/316ad2b2cf0a8955af53e5e95bc00e46.jpg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 5500/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Plot No:25,132, Gachibowli-Miyapur Rd,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom4')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes11">
+        <div class="d-flex flex-column">
+            <img src="https://blog.floorcenter.com/wp-content/uploads/2021/04/4-Design-Ideas-for-A-Luxury-Bedroom.jpg" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 8500/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Plot No:25,132, Gachibowli-Miyapur Rd,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom4')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailes12">
+        <div class="d-flex flex-column">
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/222122112.jpg?k=978d7fd6723fa753f958bc612af1295dd822ec72df2385fcb95c99965d4c6a74&o=" />
+            <div class="bg-3">
+                <h1 class="heading1">Rs 13500/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" / class="pics">
+                    <p class="par">Plot No:25,132, Gachibowli-Miyapur Rd,Hyderabad.</p>
+                </div>
+                <hr />
+                <h1 class="heading">Description</h1>
+                <p class="par">this is a fully furnished house with handmade furniture including a luxury en-suite facilites pack.in-built area is about 1600sq.ft.a spacious home for you to live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button">Confirm</button>
+                    <button class="button" onclick="display('sectionroom4')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
